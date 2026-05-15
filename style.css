@@ -6,7 +6,7 @@ body{
     margin: 0;
     font-family: Inter;
 }
-#container{
+.container{
     display: flex;
     justify-content: center;
     background-color: rgb(34, 34, 34);
@@ -14,9 +14,9 @@ body{
     align-items: center;
     
 }
-#card{
+.card{
     background-color: hsl(0, 0%, 17%);
-    padding: 40px;
+    padding: 40rem;
     border-radius: 12px;
     text-align: center;
     width: 300px;
@@ -27,9 +27,10 @@ img{
     height: 80px;
     object-fit: cover;
 }
-h3{
+h1{
     color: white;
     margin: 10px;
+    font-size: 1.2erem;
 }
 h4{
     color: yellowgreen;
